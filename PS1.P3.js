@@ -24,7 +24,9 @@ const cb1 = (string) => {
             copy +=  string[char].replace('a','A')
             count += 1
         }
-        copy += string[char]
+        else{
+            copy += string[char]
+        }
         len += 1
     }
 
